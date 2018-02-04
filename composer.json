@@ -1,0 +1,25 @@
+{
+    "name": "tarball",
+    "type": "standard",
+    "description": "Create a Multiplication table from Prime Numbers.",
+    "homepage": "https://github.com/",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^6.2",
+        "behat/behat": "2.5.*@stable"
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "bin-dir": "bin/"
+    }
+}
